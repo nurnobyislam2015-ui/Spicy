@@ -7,7 +7,7 @@ bot = telebot.TeleBot(API_TOKEN)
 
 # আপনার নিউজপেপার বা অ্যাড লিঙ্কটি এখানে দিন
 # লিঙ্কের শেষে অবশ্যই ?start=verify যুক্ত করে দেবেন আপনার সাইটের বাটনে
-AD_LINK = "https://bdviralnews24hub.blogspot.com"
+AD_LINK = "https://bdviralnews24hub.blogspot.com/2026/02/blog-post_3.html"
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
