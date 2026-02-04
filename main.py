@@ -2,12 +2,12 @@ import telebot
 from telebot import types
 
 # আপনার বটের টোকেন এখানে দিন
-API_TOKEN = 'আপনার_বট_টোকেন_এখানে_দিন'
+API_TOKEN = '8504169863:AAERbU9KX5xjQiQlwmmU8ziYfD2VPtAybEU'
 bot = telebot.TeleBot(API_TOKEN)
 
 # আপনার নিউজপেপার বা অ্যাড লিঙ্কটি এখানে দিন
 # লিঙ্কের শেষে অবশ্যই ?start=verify যুক্ত করে দেবেন আপনার সাইটের বাটনে
-AD_LINK = "https://yournewspaper.com/your-ad-page"
+AD_LINK = "https://bdviralnews24hub.blogspot.com"
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
